@@ -10,7 +10,7 @@ $(document).ready(function(){
         e.preventDefault();
 
         $('body').fadeOut(2000, function(){ //wygaszanie elementu (opacity), całego 'body'
-            window.location.href = $(e.targer).attr('href');
+            window.location.href = $(e.target).attr('href');
             // e -> klikniety link z klaca '.main-menu-item a'
             // $(e.targer).attr('href') --> wskazujemy href w html na ktory ma nas przekiwrowac, po kliknieciu
         }); 
