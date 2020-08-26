@@ -6,7 +6,7 @@ $(document).ready(function(){
         $('.main-menu').toggleClass('open'); //dodajemy klasę open w css i podpinamy zamiast add przez toggle (pokazuje ukrywa po kliknieciu)
     });
 
-    $('.main-manu-item a').click(function(e){
+    $('.main-menu-item a').click(function(e){
         e.preventDefault();
 
         $('body').fadeOut(2000, function(){ //wygaszanie elementu (opacity), całego 'body'
